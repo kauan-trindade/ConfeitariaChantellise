@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Chantellise - Confeitaria Francesa</title>
+</head>
+<body>
+
+  <header>
+    <h1><img src="images/imageScale3.png" id = "logo" alt="logo"></h1>
+    <nav >
+      <a href="#inicio">Início</a>
+      <a href="#quem-somos">Quem Somos</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#missão-visão-valores">Missão Visão E Valores</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+    <section class="hero" id="inicio">
+      <div class="carousel">
+        <div class="slides">
+          <img src="images/Carrossel/Chocolate.jpg" alt="Doces franceses">
+          <img src="images/Carrossel/croissant2.jpg" alt="Padaria">
+          <img src="images/Carrossel/macaron2.jpg" alt="Macarons">
+          <img src="images/Carrossel/tortollete2.jpg" alt="Bolo francês">
+        </div>
+        <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+        <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+      </div>
+    <h2>Bem-vindo à Chantellise</h2>
+    <p>Descubra o verdadeiro sabor da confeitaria francesa com um toque moderno e delicado.</p>
+  </section>  
+
+  <section class="quem-somos" id="quem-somos">
+    <h2>Quem Somos</h2>
+    <div class="div1">
+      <p>
+        A Chantellise nasceu do sonho de unir a tradição da confeitaria francesa com o toque moderno e acolhedor do Brasil.
+        Inspirados pelas ruas de Paris e os sabores da infância, criamos doces que contam histórias e despertam emoções.
+      </p>
+      <p>
+        Nosso compromisso é com a qualidade artesanal, ingredientes selecionados e uma experiência sensorial inesquecível.
+        Cada detalhe é pensado com carinho – do aroma da manteiga no croissant ao toque delicado da lavanda no bolo.
+      </p>
+      <p>
+        Seja bem-vindo à nossa maison de douceur. Com amor, Chantellise.
+      </p>
+    </div>
+  </section>
+  
+  <section id="catalogo">
+    <h2 >Nosso Catálogo</h2>
+    <h3>Macarons</h3>
+    <hr>
+    <div class="catalogo">
+      <div class="produto">
+        <img src="images/Macarons/macaronChocolate.jpg" alt="Macarons">
+        <h3>Macaron de Chocolate Amargo</h3>
+        <p>Intensamente chocolatudo, com ganache de cacau 70%.</p>
+      </div>
+      <div class="produto">
+        <img src="images/Macarons/macaronLimao.jpg" alt="Croissant">
+        <h3>Macaron de Pistache</h3>
+        <p>Sabor delicado e marcante com recheio de pistache puro.  </p>
+      </div>
+      <div class="produto">
+        <img src="images/Macarons/macaronLimaoSiciliano.jpg" alt="Tartelette">
+        <h3>Macaron de Limão Siciliano</h3>
+        <p>Refrescante e cítrico, com toque suave de acidez.</p>
+      </div>
+      <div class="produto">
+        <img src="images/Macarons/macaronMorango.jpg" alt="Bolo de Lavanda">
+        <h3>Macaron de Framboesa</h3>
+        <p>Casquinha crocante com recheio cremoso de framboesa fresca.</p>
+      </div>
+    </div>
+
+      <br>
+      <h3>Croissant</h3>
+      <hr>
+    <div class="catalogo">
+      <div class="produto">
+        <img src="images/Croissant/amendoa.jpg" alt="Macarons">
+        <h3>Croissant de Amêndoas</h3>
+        <p>Recheado e coberto com creme de amêndoas.</p>
+      </div>
+      <div class="produto">
+        <img src="images/Croissant/butterCroissant.jpg" alt="Croissant">
+        <h3>Croissant Clássico de Manteiga</h3>
+        <p>Folhado clássico, leve e amanteigado.</p>
+      </div>
+      <div class="produto">
+        <img src="images/Croissant/chocolateCroissant.jpg" alt="Tartelette">
+        <h3>Croissant de Chocolate</h3>
+        <p>Massa folhada com generoso recheio de chocolate.</p>
+      </div>
+      <div class="produto">
+        <img src="images/Croissant/quejuntoePreso.jpg" alt="Bolo de Lavanda">
+        <h3>Croissant de Quejunto e preso</h3>
+        <p>Crocante por fora, recheado com queijo derretido e presunto.</p>
+      </div>
+    </div>
+
+    <br>
+      <h3>Tartelette</h3>
+      <hr>
+    <div class="catalogo">
+      <div class="produto">
+        <img src="images/Tortelles/Frutas vermelhas.jpg" alt="Macarons">
+        <h3>Tartellete de Frutas Vermelhas</h3>
+        <p>Base crocante com creme e frutas frescas.
+        </p>
+      </div>
+      <div class="produto">
+        <img src="images/Tortelles/Ganhache com Chocolate.jpg" alt="Croissant">
+        <h3>Tartellete de Ganhache com Chocolate</h3>
+        <p>Tarte de chocolate intensa, cremosa e elegante.</p>
+      </div>
+      <div class="produto">
+        <img src="images/Tortelles/Limão com merengue.jpg" alt="Tartelette">
+        <h3>Tartellete de Limão com Merengue</h3>
+        <p>Ácida na medida, coberta com merengue dourado.
+        </p>
+      </div>
+      <div class="produto">
+        <img src="images/Tortelles/Tarte Tatin (Maçã Caramelizada).jpg" alt="Bolo de Lavanda">
+        <h3>Tartellete de Tarte Tatin</h3>
+        <p>Maçãs caramelizadas sobre base amanteigada.
+        </p>
+      </div>
+    </div>
+
+    <br>
+    <h3>Éclair</h3>
+    <hr>
+    <div class="catalogo">
+      <div class="produto">
+        <img src="images/Eclair/Baunilha.jpg" alt="Macarons">
+        <h3>Éclair de Baunilha</h3>
+        <p>Clássica e suave, recheada com creme de baunilha.
+        </p>
+      </div>
+      <div class="produto">
+        <img src="images/Eclair/Café.jpg" alt="Croissant">
+        <h3>Éclair de Café</h3>
+        <p>Recheio cremoso com sabor marcante de café.
+        </p>
+      </div>
+      <div class="produto">
+        <img src="images/Eclair/Caramelo com flor de sal.jpg" alt="Tartelette">
+        <h3>Éclair de Caramelo com flor de sal</h3>
+        <p>Doce e salgado em perfeita harmonia.
+        </p>
+      </div>
+      <div class="produto">
+        <img src="images/Eclair/Chocolate.jpg" alt="Bolo de Lavanda">
+        <h3>Éclair de Chocolate</h3>
+        <p>Massa leve com recheio e cobertura de chocolate.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class = "quem-somos" id="missão-visão-valores">
+    <h2>Missão, Visão e Valores</h2>
+    <div class="div1">
+      <p>
+        A Chantellise nasceu do sonho de unir a tradição da confeitaria francesa com o toque moderno e acolhedor do Brasil.
+        Inspirados pelas ruas de Paris e os sabores da infância, criamos doces que contam histórias e despertam emoções.
+      </p>
+      <p>
+        Nosso compromisso é com a qualidade artesanal, ingredientes selecionados e uma experiência sensorial inesquecível.
+        Cada detalhe é pensado com carinho – do aroma da manteiga no croissant ao toque delicado da lavanda no bolo.
+      </p>
+      <p>
+        Seja bem-vindo à nossa maison de douceur. Com amor, Chantellise.
+      </p>
+    </div>
+  </section>
+</section>
+
+  <footer id="contato">
+    <p>&copy; 2025 Chantellise - Todos os direitos reservados.</p>
+    <p>Endereço: Rua das Paixoes - São Paulo, SP</p>
+    <p>Email: contato@chantellise.com</p>
+  </footer>
+   
+<script src="script.js"></script> 
+
+</body>
+</html>

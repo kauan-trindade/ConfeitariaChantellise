@@ -9,14 +9,22 @@
 <body>
 
   <header>
-    <h1><img src="images/imageScale3.png" id = "logo" alt="logo"></h1>
-    <nav >
+    <h1><img src="images/imageScale3.png" id="logo" alt="logo"></h1>
+    <nav>
       <a href="#inicio">Início</a>
       <a href="#quem-somos">Quem Somos</a>
       <a href="#catalogo">Catálogo</a>
       <a href="#missão-visão-valores">Missão Visão E Valores</a>
       <a href="#contato">Contato</a>
     </nav>
+    <div id="cart-container">
+      <button id="cart-button">🛒 <span id="cart-count">0</span></button>
+      <div id="cart-dropdown" class="hidden">
+        <h3>Carrinho</h3>
+        <ul id="cart-items"></ul>
+        <button id="clear-cart">Limpar Carrinho</button>
+      </div>
+    </div>
   </header>
 
     <section class="hero" id="inicio">
